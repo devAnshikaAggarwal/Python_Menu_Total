@@ -91,6 +91,8 @@ def main():
     show_details(name, number, address, pincode)
     total = calculate_bill(order, food)
     total_after_discount = discount_system(total)
+    print(f"\nTotal Amount to be paid: Rs. {total_after_discount}")
+    print("\nThank you for ordering from us!")
 
 if __name__ == "__main__":
     main()
